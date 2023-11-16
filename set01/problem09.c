@@ -1,24 +1,26 @@
 #include <stdio.h>
 
 float input()
-{   float x;
+{   float n;
     printf("pls enter a num:");
-    scanf("%f",&x);
-    return x;}
+    scanf("%f",&n);
+    return n;}
 
 float square_root(float n){
-    
-    float x=input();
+    float x = 10;
     while (x*x-n>0.01) {
         x=0.5*(x + (n / x));
     }
-return x;
-}
+ 
+//test
+return x;}
 
 void output(float sqrroot)
 {   printf("%f",sqrroot);}
 
 int main()
-{   float n,sqrroot;
-    sqrroot=square_root(n);
-    output(sqrroot);}
+{ float n,sqrroot;
+n=input();
+sqrroot=square_root(n);
+output(sqrroot);
+}
