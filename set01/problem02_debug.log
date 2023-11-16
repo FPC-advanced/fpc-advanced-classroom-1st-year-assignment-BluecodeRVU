@@ -1,0 +1,9 @@
++l
+1	#include <stdio.h>
+2	int main(){
+3	    int a=1;
+4	    int b=2;
+5	    int sum=a+b;
+6	    printf("%d",sum);}
++l
+Line number 7 out of range; c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c has 6 lines.
