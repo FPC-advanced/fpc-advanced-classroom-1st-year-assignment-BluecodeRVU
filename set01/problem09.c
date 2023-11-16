@@ -7,14 +7,13 @@ float input()
     return x;}
 
 float square_root(float n){
-    float x = 10;
-    n=input();
+    
+    float x=input();
     while (x*x-n>0.01) {
         x=0.5*(x + (n / x));
     }
- 
-//test
-return x;}
+return x;
+}
 
 void output(float sqrroot)
 {   printf("%f",sqrroot);}

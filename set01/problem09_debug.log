@@ -1,64 +1,27 @@
-Microsoft Windows [Version 10.0.22631.2506]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU>cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
-
-c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01>gdb ./problem09
-GNU gdb (GDB) 11.1
-Copyright (C) 2021 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-Type "show copying" and "show warranty" for details.
-This GDB was configured as "x86_64-w64-mingw32".
-Type "show configuration" for configuration details.
-For bug reporting instructions, please see:
-<https://www.gnu.org/software/gdb/bugs/>.
-Find the GDB manual and other documentation resources online at:
-    <http://www.gnu.org/software/gdb/documentation/>.
-
-For help, type "help".
-Type "apropos word" to search for commands related to "word"...
-Reading symbols from ./problem09...
-(gdb) c
-The program is not being run.
-(gdb) set logging file problem09_debug.log
-(gdb) set logging enabled on
-Undefined set logging command: "enabled on".  Try "help set logging".
-(gdb) set logging on
-Copying output to problem09_debug.log.
-Copying debug output to problem09_debug.log.
-(gdb) set trace-commands on
-(gdb) l
 +l
 warning: Source file is more recent than executable.
-11          n=input();
-12          while (x*x-n>0.01) {
-13              x=0.5*(x + (n / x));
-14          }
-15
-16      //test
-17      return x;}
-18
-19      void output(float sqrroot)
-20      {   printf("%f",sqrroot);}
-(gdb) l
+11	    n=input();
+12	    while (x*x-n>0.01) {
+13	        x=0.5*(x + (n / x));
+14	    }
+15	 
+16	//test
+17	return x;}
+18	
+19	void output(float sqrroot)
+20	{   printf("%f",sqrroot);}
 +l
-21
-22      int main()
-23      {   float n,sqrroot;
-24          sqrroot=square_root(n);
-25          output(sqrroot);}
-(gdb) b
+21	
+22	int main()
+23	{   float n,sqrroot;
+24	    sqrroot=square_root(n);
+25	    output(sqrroot);}
 +b
 No default breakpoint address now.
-(gdb) b main       
 +b main
 Breakpoint 1 at 0x1400016d9: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c, line 25.
-(gdb) b square_root
 +b square_root
 Breakpoint 2 at 0x140001627: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c, line 11.
-(gdb) info
 +info
 List of info subcommands:
 
@@ -68,13 +31,12 @@ info args -- All argument variables of current stack frame or those matching REG
 info auto-load -- Print current status of auto-loaded files.
 info auxv -- Display the inferior's auxiliary vector.
 info bookmarks -- Status of user-settable bookmarks.
-info breakpoints,
+info breakpoints, 
    info b -- Status of specified breakpoints (all user-settable breakpoints if no argument).
 info classes -- All Objective-C classes, or those matching REGEXP.
 info common -- Print out the values contained in a Fortran COMMON block.
 info connections -- Target connections in use.
 info copying -- Conditions for redistributing copies of GDB.
---Type <RET> for more, q to quit, c to continue without paging--c
 info dcache -- Print information on the dcache performance.
 info display -- Expressions to display when program stops, with code numbers.
 info exceptions -- List all Ada exception names.
@@ -126,132 +88,86 @@ Type "help info" followed by info subcommand name for full documentation.
 Type "apropos word" to search for commands related to "word".
 Type "apropos -v word" for full documentation of commands related to "word".
 Command name abbreviations are allowed if unambiguous.
-(gdb) c
 +c
 The program is not being run.
-(gdb) info b
 +info b
 Num     Type           Disp Enb Address            What
 1       breakpoint     keep y   0x00000001400016d9 in main 
                                                    at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c:25
 2       breakpoint     keep y   0x0000000140001627 in square_root 
                                                    at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c:11
-(gdb) r
 +r
 Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.exe 
 [New Thread 13376.0x2a38]
 warning: Can not parse XML library list; XML support was disabled at compile time
 
 Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c:25
-25          output(sqrroot);}
-(gdb) n
+25	    output(sqrroot);}
 +n
 
 Thread 1 hit Breakpoint 2, square_root (n=0) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c:11
-11          n=input();
-(gdb) n
+11	    n=input();
 +n
-12          while (x*x-n>0.01) {
-(gdb) n
+12	    while (x*x-n>0.01) {
 +n
-pls enter a num:3
-13              x=0.5*(x + (n / x));
-(gdb) print x
+13	        x=0.5*(x + (n / x));
 +print x
 $1 = 10
-(gdb) printf n
 +printf n
 Bad format string, missing '"'.
-(gdb) p n    
 +p n
 $2 = 3
-(gdb) n
 +n
-14          }
-(gdb) p n
+14	    }
 +p n
 $3 = 3
-(gdb) n
 +n
-13              x=0.5*(x + (n / x));
-(gdb) p n
+13	        x=0.5*(x + (n / x));
 +p n
 $4 = 3
-(gdb) n
 +n
-14          }
-(gdb) p n
+14	    }
 +p n
 $5 = 3
-(gdb) p x
 +p x
 $6 = 5.1500001
-(gdb) n
 +n
-13              x=0.5*(x + (n / x));
-(gdb) p x
+13	        x=0.5*(x + (n / x));
 +p x
 $7 = 2.8662622
-(gdb) n
 +n
-14          }
-(gdb) p x
+14	    }
 +p x
 $8 = 2.8662622
-(gdb) n 
 +n
-13              x=0.5*(x + (n / x));
-(gdb) p x
+13	        x=0.5*(x + (n / x));
 +p x
 $9 = 1.95646071
-(gdb) n
 +n
-14          }
-(gdb) p x
+14	    }
 +p x
 $10 = 1.95646071
-(gdb) n  
 +n
-13              x=0.5*(x + (n / x));
-(gdb) p x
+13	        x=0.5*(x + (n / x));
 +p x
 $11 = 1.74492097
-(gdb) n 
-+n
-14          }
-(gdb) p x
++n 
+14	    }
 +p x
 $12 = 1.74492097
-(gdb) n
 +n
-13              x=0.5*(x + (n / x));
-(gdb) p x
+13	        x=0.5*(x + (n / x));
 +p x
 $13 = 1.73209834
-(gdb) n
 +n
-18
-(gdb) n
+18	
 +n
 main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem09.c:26
-(gdb) n
 +n
-1.7320980x00007ff70c7a13c1 in __tmainCRTStartup ()
-(gdb) n
+0x00007ff70c7a13c1 in __tmainCRTStartup ()
 +n
 Single stepping until exit from function __tmainCRTStartup,
 which has no line number information.
 [Thread 13376.0x2a38 exited with code 0]
 [Inferior 1 (process 13376) exited normally]
-(gdb) q
 +q
-
-c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01>finish
-'finish' is not recognized as an internal or external command,
-operable program or batch file.
-
-  
-
-  
-
-  
