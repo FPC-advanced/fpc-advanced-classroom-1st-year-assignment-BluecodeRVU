@@ -30,4 +30,11 @@ Num     Type           Disp Enb Address            What
 4       breakpoint     keep y   0x0000000140001627 in input 
                                                    at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:7
 5       breakpoint     keep y   0x000000014000164c in input 
-                                                   at c:\Users\rames\github-classroom\FPC-a
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:9
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.exe 
+[New Thread 21000.0x5d20]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:29
+29	    input(&a,&b,&c);
