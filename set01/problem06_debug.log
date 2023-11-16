@@ -1,0 +1,15 @@
++l
+15	    *largest=*b;
+16	  }
+17	  if(*c>*largest){
+18	    *largest=*c;
+19	  }
+20	}
+21	
+22	void output(int largest) {
+23	  printf("%d is the largest.\n",largest);
+24	
++b main
+Breakpoint 1 at 0x1400016f5: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 29.
++b 13
+Breakpoint 2 at 0x14000167d: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 13.
