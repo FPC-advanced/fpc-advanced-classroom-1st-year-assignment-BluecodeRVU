@@ -1,2 +1,4 @@
 'gcc' is not recognized as an internal or external command,
 operable program or batch file.
+Compilation started at 11/16/2023, 4:54:28 PM
+Compilation finished at 11/16/2023, 4:54:28 PM
