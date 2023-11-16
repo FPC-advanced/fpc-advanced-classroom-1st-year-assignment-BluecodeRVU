@@ -38,3 +38,149 @@ warning: Can not parse XML library list; XML support was disabled at compile tim
 
 Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:29
 29	    input(&a,&b,&c);
++n
+
+Thread 1 hit Breakpoint 3, input (a=0xaf9cbff85c, b=0xaf9cbff858, c=0xaf9cbff854) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:5
+5	  scanf("%d",a);
++n
+6	  printf("Please enter a value: ");
++n
+
+Thread 1 hit Breakpoint 4, input (a=0xaf9cbff85c, b=0xaf9cbff858, c=0xaf9cbff854) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:7
+7	  scanf("%d",b);
++n
+8	  printf("Please enter a value: ");
++n
+
+Thread 1 hit Breakpoint 5, input (a=0xaf9cbff85c, b=0xaf9cbff858, c=0xaf9cbff854) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:9
+9	  scanf("%d",c);
++n
+10	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:31
+31	    compare(&a, &b, &c, &largest);
++info
+List of info subcommands:
+
+info address -- Describe where symbol SYM is stored.
+info all-registers -- List of all registers and their contents, for selected stack frame.
+info args -- All argument variables of current stack frame or those matching REGEXPs.
+info auto-load -- Print current status of auto-loaded files.
+info auxv -- Display the inferior's auxiliary vector.
+info bookmarks -- Status of user-settable bookmarks.
+info breakpoints, 
+   info b -- Status of specified breakpoints (all user-settable breakpoints if no argument).
+info classes -- All Objective-C classes, or those matching REGEXP.
+info common -- Print out the values contained in a Fortran COMMON block.
+info connections -- Target connections in use.
+info copying -- Conditions for redistributing copies of GDB.
+info dcache -- Print information on the dcache performance.
+info display -- Expressions to display when program stops, with code numbers.
+info exceptions -- List all Ada exception names.
+info extensions -- All filename extensions associated with a source language.
+info files -- Names of targets and files being debugged.
+info float -- Print the status of the floating point unit.
+info frame, info f -- All about the selected stack frame.
+info functions -- All function names or those matching REGEXPs.
+info guile, info gu -- Prefix command for Guile info displays.
+info inferiors -- Print a list of inferiors being managed.
+info line -- Core addresses of the code for a source line.
+info locals -- All local variables of current stack frame or those matching REGEXPs.
+info macro -- Show the definition of MACRO, and it's source location.
+info macros -- Show the definitions of all macros at LINESPEC, or the current source location.
+info mem -- Memory region attributes.
+info module -- Print information about modules.
+info modules -- All module names, or those matching REGEXP.
+info os -- Show OS data ARG.
+info probes -- Show available static probes.
+info proc -- Show additional information about a process.
+info program -- Execution status of the program.
+info record, info rec -- Info record options.
+info registers, info r -- List of integer registers and their contents, for selected stack frame.
+info scope -- List the variables local to a scope.
+info selectors -- All Objective-C selectors, or those matching REGEXP.
+info sharedlibrary, info dll -- Status of loaded shared object libraries.
+info signals, info handle -- What debugger does when program gets various signals.
+info skip -- Display the status of skips.
+info source -- Information about the current source file.
+info sources -- All source files in the program or those matching REGEXP.
+info stack, info s -- Backtrace of the stack, or innermost COUNT frames.
+info static-tracepoint-markers -- List target static tracepoints markers.
+info symbol -- Describe what symbol is at location ADDR.
+info target -- Names of targets and files being debugged.
+info tasks -- Provide information about all known Ada tasks.
+info terminal -- Print inferior's saved terminal status.
+info threads -- Display currently known threads.
+info tracepoints, info tp -- Status of specified tracepoints (all tracepoints if no argument).
+info tvariables -- Status of trace state variables and their values.
+info types -- All type names, or those matching REGEXP.
+info variables -- All global and static variable names or those matching REGEXPs.
+info vector -- Print the status of the vector unit.
+info vtbl -- Show the virtual function table for a C++ object.
+info w32 -- Print information specific to Win32 debugging.
+info warranty -- Various kinds of warranty you do not have.
+info watchpoints -- Status of specified watchpoints (all watchpoints if no argument).
+
+Type "help info" followed by info subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Type "apropos -v word" for full documentation of commands related to "word".
+Command name abbreviations are allowed if unambiguous.
++info b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ff6697016f5 in main 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:29
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x00007ff66970167d in compare 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:13
+3       breakpoint     keep y   0x00007ff669701605 in input 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:5
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x00007ff669701627 in input 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:7
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x00007ff66970164c in input at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:9
+	breakpoint already hit 1 time
++n
+
+Thread 1 hit Breakpoint 2, compare (a=0xaf9cbff85c, b=0xaf9cbff858, c=0xaf9cbff854, largest=0xaf9cbff850) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:13
+13	  *largest=*a;
++n
+14	  if(*b>*largest){
++p a
+$1 = (int *) 0xaf9cbff85c
++p *a
+$2 = 1
++p *b
+$3 = 1
++p &b
+$4 = (int **) 0xaf9cbff838
++p *b
+$5 = 1
++p *c
+$6 = 2
++p a
+$7 = (int *) 0xaf9cbff85c
++n
+17	  if(*c>*largest){
++n
+18	    *largest=*c;
++n
+20	}
++p *largest
+$8 = 2
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:32
+32	    output(largest);
++step 
+output (largest=2) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:23
+23	  printf("%d is the largest.\n",largest);
++n
+25	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:33
+33	    return 0;
++n
+34	}
++n
+0x00007ff6697013c1 in __tmainCRTStartup ()
++quit
