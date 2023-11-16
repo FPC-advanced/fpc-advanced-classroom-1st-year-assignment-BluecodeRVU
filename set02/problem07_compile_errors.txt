@@ -1,0 +1,4 @@
+Compilation started at 11/16/2023, 10:13:26 AM
+Compilation finished at 11/16/2023, 10:13:26 AM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem07.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
