@@ -13,3 +13,21 @@
 Breakpoint 1 at 0x1400016f5: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 29.
 +b 13
 Breakpoint 2 at 0x14000167d: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 13.
++b 5
+Breakpoint 3 at 0x140001605: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 5.
++b 7
+Breakpoint 4 at 0x140001627: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 7.
++b 9
+Breakpoint 5 at 0x14000164c: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c, line 9.
++info b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00000001400016f5 in main 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:29
+2       breakpoint     keep y   0x000000014000167d in compare 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:13
+3       breakpoint     keep y   0x0000000140001605 in input 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:5
+4       breakpoint     keep y   0x0000000140001627 in input 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:7
+5       breakpoint     keep y   0x000000014000164c in input 
+                                                   at c:\Users\rames\github-classroom\FPC-a
