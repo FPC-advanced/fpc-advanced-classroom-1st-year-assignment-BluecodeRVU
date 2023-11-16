@@ -1,0 +1,9 @@
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem12.c:12:25: error: conflicting types for 'Complex'; have 'struct _complex'
+   12 | typedef struct _complex Complex;
+      |                         ^~~~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem12.c:4:24: note: previous declaration of 'Complex' with type 'Complex' {aka 'struct complex'}
+    4 | typedef struct complex Complex;
+      |                        ^~~~~~~
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status

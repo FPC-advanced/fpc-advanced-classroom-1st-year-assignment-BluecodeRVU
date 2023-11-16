@@ -1,0 +1,44 @@
++l
+No symbol table is loaded.  Use the "file" command.
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem08_debug.log.
++set trace-commands on
++L
+Undefined command: "L".  Try "help".
++b 39
+No symbol table is loaded.  Use the "file" command.
++cd set04
+Working directory C:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04.
++L
+Undefined command: "L".  Try "help".
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem08_debug.log.
++set trace-commands on
++cd set04
+set04: No such file or directory.
++l
+No symbol table is loaded.  Use the "file" command.
++L
+Undefined command: "L".  Try "help".
++file
+No executable file now.
+No symbol file now.
++cd set04
+set04: No such file or directory.
++set05
+Undefined command: "set05".  Try "help".
++q

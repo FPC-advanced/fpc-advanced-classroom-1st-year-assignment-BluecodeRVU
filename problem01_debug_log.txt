@@ -1,0 +1,38 @@
+Breakpoint 1 at 0x14000159e: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.c, line 4.
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.exe 
+warning: Can not parse XML library list; XML support was disabled at compile time
+[New Thread 15876.0x46cc]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.c:4
+4	    printf("hello world");
+Continuing.
+[Thread 15876.0x46cc exited with code 0]
+[Inferior 1 (process 15876) exited normally]
+Breakpoint 1 at 0x14000159e: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.c, line 4.
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.exe 
+[New Thread 18976.0x1c20]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.c:4
+4	    printf("hello world");
+Continuing.
+[Thread 18976.0x1c20 exited with code 0]
+[Inferior 1 (process 18976) exited normally]
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gdb".  Try "help".
+The program is not being run.
+Undefined set logging command: "enabled on".  Try "help set logging".
+Already logging to problem01_debug_log.txt.
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".

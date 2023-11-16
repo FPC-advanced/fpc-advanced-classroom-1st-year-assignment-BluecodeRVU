@@ -1,0 +1,10 @@
+
+
+  
+
+  Undefined command: "R".  Try "help".
+Starting program: C:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem01.exe 
+[New Thread 14584.0x20c8]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 14584.0x20c8 exited with code 0]
+[Inferior 1 (process 14584) exited normally]

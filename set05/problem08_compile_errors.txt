@@ -1,0 +1,39 @@
+Compilation started at 11/3/2023, 10:08:07 AM
+Compilation finished at 11/3/2023, 10:08:08 AM
+Compilation started at 11/3/2023, 10:17:06 AM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c: In function 'input':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c:10:22: warning: comparison between pointer and integer
+   10 |     for (int i = 0; i<n; i++){
+      |                      ^
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c:45:11: warning: passing argument 1 of 'input' makes pointer from integer without a cast [-Wint-conversion]
+   45 |     input(n,c,&truck_weight);
+      |           ^
+      |           |
+      |           int
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c:7:17: note: expected 'int *' but argument is of type 'int'
+    7 | void input(int *n, cm c[*n], float *truck_weight){
+      |            ~~~~~^
+Compilation finished at 11/3/2023, 10:17:07 AM
+Compilation started at 11/3/2023, 10:17:47 AM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c: In function 'input':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c:10:22: warning: comparison between pointer and integer
+   10 |     for (int i = 0; i<n; i++){
+      |                      ^
+Compilation finished at 11/3/2023, 10:17:47 AM
+Compilation started at 11/3/2023, 10:19:29 AM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/3/2023, 10:19:29 AM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c: In function 'input':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.c:10:22: warning: comparison between pointer and integer
+   10 |     for (int i = 0; i<n; i++){
+      |                      ^
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/3/2023, 10:21:24 AM
+Compilation finished at 11/3/2023, 10:21:25 AM
+Compilation started at 11/3/2023, 10:21:43 AM
+Compilation finished at 11/3/2023, 10:21:43 AM

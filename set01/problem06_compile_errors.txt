@@ -1,0 +1,30 @@
+Compilation started at 11/10/2023, 9:47:05 PM
+Compilation finished at 11/10/2023, 9:47:05 PM
+Compilation started at 11/15/2023, 5:14:42 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:25:13: error: void value not ignored as it ought to be
+   25 |     int a = input();
+      |             ^~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:26:13: error: void value not ignored as it ought to be
+   26 |     int b = input();
+      |             ^~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:27:13: error: void value not ignored as it ought to be
+   27 |     int c = input();
+      |             ^~~~~
+Compilation finished at 11/15/2023, 5:14:42 PM
+Compilation started at 11/15/2023, 5:14:57 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:25:13: error: void value not ignored as it ought to be
+   25 |     int a = input();
+      |             ^~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:26:13: error: void value not ignored as it ought to be
+   26 |     int b = input();
+      |             ^~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem06.c:27:13: error: void value not ignored as it ought to be
+   27 |     int c = input();
+      |             ^~~~~
+Compilation finished at 11/15/2023, 5:14:57 PM
+Compilation started at 11/15/2023, 5:15:31 PM
+Compilation finished at 11/15/2023, 5:15:31 PM
+Compilation started at 11/15/2023, 5:21:08 PM
+Compilation finished at 11/15/2023, 5:21:08 PM

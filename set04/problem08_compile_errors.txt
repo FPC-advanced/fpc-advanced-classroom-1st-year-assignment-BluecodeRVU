@@ -1,0 +1,22 @@
+Compilation started at 11/4/2023, 3:57:29 AM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem08.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem08.c:64:12: warning: implicit declaration of function 'add_n_fraction'; did you mean 'add_n_fractions'? [-Wimplicit-function-declaration]
+   64 |   sum.num= add_n_fraction(n,f);
+      |            ^~~~~~~~~~~~~~
+      |            add_n_fractions
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\rames\AppData\Local\Temp\cccct5LJ.o: in function `main':
+c:/Users/rames/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BluecodeRVU/set04/problem08.c:64: undefined reference to `add_n_fraction'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/4/2023, 3:57:29 AM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem08.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem08.c:64:12: warning: implicit declaration of function 'add_n_fraction'; did you mean 'add_n_fractions'? [-Wimplicit-function-declaration]
+   64 |   sum.num= add_n_fraction(n,f);
+      |            ^~~~~~~~~~~~~~
+      |            add_n_fractions
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\rames\AppData\Local\Temp\ccmG2frK.o: in function `main':
+c:/Users/rames/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-BluecodeRVU/set04/problem08.c:64: undefined reference to `add_n_fraction'
+collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/7/2023, 11:17:13 PM
+Compilation finished at 11/7/2023, 11:17:14 PM
+Compilation started at 11/7/2023, 11:41:53 PM
+Compilation finished at 11/7/2023, 11:41:53 PM

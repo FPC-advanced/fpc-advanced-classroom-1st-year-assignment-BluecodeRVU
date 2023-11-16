@@ -1,0 +1,154 @@
++l
+warning: Source file is more recent than executable.
+20	    return x;
+21	}
+22	
+23	float evaluate_polynomial(int n, float a[n], float x){
+24	    float sum;
+25	
+26	    for(int i=0;i<n;i+=2){
+27	        sum=(a[i]*x)+a[i+1];
+28	    }
+29	    return sum;
++b 27
+Breakpoint 1 at 0x1400016ce: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c, line 27.
++b 26
+Breakpoint 2 at 0x1400016c5: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c, line 26.
++info b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00000001400016ce in evaluate_polynomial 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:27
+2       breakpoint     keep y   0x00000001400016c5 in evaluate_polynomial 
+                                                   at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:26
++b main
+Breakpoint 3 at 0x140001780: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c, line 34.
++run
+Starting program: C:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.exe 
+[New Thread 34896.0x35f0]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 3, 0x00007ff715e91780 in main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:34
+34	int main(){
++n
+36	    d=input_degree();
++step
+input_degree () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:3
+3	    printf("pls enter the degree of the poly: ");
++n
+5	    scanf("%d",&d);
++3
+Undefined command: "3".  Try "help".
++n
+6	    return d;
++p d
+$1 = 3
++n
+7	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:37
+37	    float a[d];
++n
+38	    input_coefficients(d,a);
++n
+39	    float x=input_x();
++n
+40	    float sum=evaluate_polynomial(d,a,x);
++n
+
+Thread 1 hit Breakpoint 2, evaluate_polynomial (n=3, a=0x6bcb9ffa10, x=2) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:26
+26	    for(int i=0;i<n;i+=2){
++p i
+$2 = 0
++n
+
+Thread 1 hit Breakpoint 1, evaluate_polynomial (n=3, a=0x6bcb9ffa10, x=2) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:27
+27	        sum=(a[i]*x)+a[i+1];
++p sum
+$3 = 2
++p sum
+$4 = 2
++p sum
+$5 = 2
++p a[i]
+$6 = 2
++p x
+$7 = 2
++p a[i+1]
+$8 = 3
++p sum
+$9 = 2
++n
+26	    for(int i=0;i<n;i+=2){
++p sum
+$10 = 7
++p i
+$11 = 0
++n
+
+Thread 1 hit Breakpoint 1, evaluate_polynomial (n=3, a=0x6bcb9ffa10, x=2) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set04\problem04.c:27
+27	        sum=(a[i]*x)+a[i+1];
++p i
+$12 = 2
++p a[i]
+$13 = -4
++p x
+$14 = 2
++p a[i+1]
+$15 = 1
++n
+26	    for(int i=0;i<n;i+=2){
++p sum
+$16 = -7
++n
+29	    return sum;
++gcc -g "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem01.c" -o "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem01.exe"
+Undefined command: "".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/6/2023, 12:37:56 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++l
+24	    float sum;
+25	
+26	    for(int i=0;i<n;i+=2){
+27	        sum=(a[i]*x)+a[i+1];
+28	    }
+29	    return sum;
+30	}
+Quit
++l
+24	    float sum;
+25	
+26	    for(int i=0;i<n;i+=2){
+27	        sum=(a[i]*x)+a[i+1];
+28	    }
+29	    return sum;
+30	}
+Quit
++gdb ./problem08
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Thread 34896.0x35f0 exited with code 0]
+[Inferior 1 (process 34896) exited normally]
++set logging file problem08_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
++l
+24	    float sum;
+25	
+26	    for(int i=0;i<n;i+=2){
+27	        sum=(a[i]*x)+a[i+1];
+28	    }
+29	    return sum;
+30	}
+Quit
++cd set04
+set04: No such file or directory.

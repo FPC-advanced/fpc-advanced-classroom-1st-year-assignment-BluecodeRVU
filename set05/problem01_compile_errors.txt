@@ -1,0 +1,40 @@
+Compilation started at 11/1/2023, 6:33:10 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c: In function 'input':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:10:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   10 |     printf("pls enter a num: ");
+      |     ^~~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | struct point {
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:10:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   10 |     printf("pls enter a num: ");
+      |     ^~~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:10:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:11:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+   11 |     scanf("%f %f",&a.x,&a.y);
+      |     ^~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:11:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:11:5: warning: incompatible implicit declaration of built-in function 'scanf' [-Wbuiltin-declaration-mismatch]
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:11:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c: In function 'dist':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:15:9: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+   15 |     res=sqrt(((a.x-b.x)*(a.x-b.x))+((a.y-b.y)*(a.y-b.y)));
+      |         ^~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:1:1: note: include '<math.h>' or provide a declaration of 'sqrt'
+  +++ |+#include <math.h>
+    1 | struct point {
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:15:9: warning: incompatible implicit declaration of built-in function 'sqrt' [-Wbuiltin-declaration-mismatch]
+   15 |     res=sqrt(((a.x-b.x)*(a.x-b.x))+((a.y-b.y)*(a.y-b.y)));
+      |         ^~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:15:9: note: include '<math.h>' or provide a declaration of 'sqrt'
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:15:9: error: incompatible types when assigning to type 'float *' from type 'double'
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c: In function 'output':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:19:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   19 |     printf("%f",res);
+      |     ^~~~~~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set05\problem01.c:19:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/1/2023, 6:33:10 PM
+Compilation started at 11/1/2023, 6:38:21 PM
+Compilation finished at 11/1/2023, 6:38:21 PM
+Compilation started at 11/1/2023, 6:39:07 PM
+Compilation finished at 11/1/2023, 6:39:08 PM

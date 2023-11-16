@@ -1,0 +1,43 @@
+Compilation started at 11/12/2023, 5:07:07 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c: In function 'output':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:42:18: error: 'pt' {aka 'struct point'} has no member named 'perimeter'
+   42 |     printf("%f",p.perimeter);
+      |                  ^
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c: In function 'main':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:53:17: warning: passing argument 1 of 'input_polygon' from incompatible pointer type [-Wincompatible-pointer-types]
+   53 |   input_polygon(&p);
+      |                 ^~
+      |                 |
+      |                 pt (*)[100] {aka struct point (*)[100]}
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:27:24: note: expected 'pl *' {aka 'struct polygon *'} but argument is of type 'pt (*)[100]' {aka 'struct point (*)[100]'}
+   27 | void input_polygon(pl *p){
+      |                    ~~~~^
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:55:18: warning: passing argument 1 of 'find_perimeter' from incompatible pointer type [-Wincompatible-pointer-types]
+   55 |   find_perimeter(&p,dist);
+      |                  ^~
+      |                  |
+      |                  pt (*)[100] {aka struct point (*)[100]}
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:37:25: note: expected 'pl *' {aka 'struct polygon *'} but argument is of type 'pt (*)[100]' {aka 'struct point (*)[100]'}
+   37 | void find_perimeter(pl *p,float dist){
+      |                     ~~~~^
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:56:10: error: incompatible type for argument 1 of 'output'
+   56 |   output(p);
+      |          ^
+      |          |
+      |          pt * {aka struct point *}
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.c:41:16: note: expected 'pt' {aka 'struct point'} but argument is of type 'pt *' {aka 'struct point *'}
+   41 | void output(pt p){
+      |             ~~~^
+Compilation finished at 11/12/2023, 5:07:07 PM
+Compilation started at 11/13/2023, 8:32:04 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/13/2023, 8:32:04 PM
+Compilation started at 11/13/2023, 8:32:23 PM
+Compilation finished at 11/13/2023, 8:32:23 PM
+Compilation started at 11/13/2023, 10:29:54 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set03\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/13/2023, 10:29:55 PM
+Compilation started at 11/13/2023, 10:30:00 PM
+Compilation finished at 11/13/2023, 10:30:00 PM
