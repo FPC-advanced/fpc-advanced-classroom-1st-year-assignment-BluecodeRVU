@@ -4,3 +4,61 @@ Compilation started at 11/15/2023, 5:44:41 PM
 Compilation finished at 11/15/2023, 5:44:41 PM
 c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
+Compilation started at 11/19/2023, 10:42:17 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:23:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   23 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:23:33: note: did you mean to dereference the pointer?
+   23 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:42:18 PM
+Compilation started at 11/19/2023, 10:42:46 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:33: note: did you mean to dereference the pointer?
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:42:46 PM
+Compilation started at 11/19/2023, 10:43:41 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:33: note: did you mean to dereference the pointer?
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:43:41 PM
+Compilation started at 11/19/2023, 10:43:48 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:33: note: did you mean to dereference the pointer?
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:43:49 PM
+Compilation started at 11/19/2023, 10:44:28 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:33: note: did you mean to dereference the pointer?
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:44:29 PM
+Compilation started at 11/19/2023, 10:44:36 PM
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c: In function 'stringcompare':
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:40: warning: comparison between pointer and zero character constant [-Wpointer-compare]
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                        ^~
+c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem10.c:21:33: note: did you mean to dereference the pointer?
+   21 |     else if(string1[i]!='\0' && string2=='\0'){
+      |                                 ^
+Compilation finished at 11/19/2023, 10:44:36 PM
+Compilation started at 11/19/2023, 10:45:42 PM
+Compilation finished at 11/19/2023, 10:45:43 PM
+Compilation started at 11/19/2023, 10:46:05 PM
+Compilation finished at 11/19/2023, 10:46:06 PM
