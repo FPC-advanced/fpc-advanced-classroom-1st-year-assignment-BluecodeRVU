@@ -16,9 +16,8 @@ int stringcompare(char *string1, char *string2){//lol
       return 1;
       break;
     }
-    else{
+    else
       return 2;
-      }
   }
 }
 

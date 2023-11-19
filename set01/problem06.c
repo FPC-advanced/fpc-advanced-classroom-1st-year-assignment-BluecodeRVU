@@ -9,13 +9,13 @@ void input(int *a,int *b,int *c) {
   scanf("%d",c);
 }
 
-void compare(int *a, int *b, int *c, int *largest) {
-  *largest=*a;
-  if(*b>*largest){
-    *largest=*b;
+void compare(int a, int b, int c, int *largest) {
+  *largest=a;
+  if(b>*largest){
+    *largest=b;
   }
-  if(*c>*largest){
-    *largest=*c;
+  if(c>*largest){
+    *largest=c;
   }
 }
 
@@ -28,7 +28,7 @@ int main() {
   int a,b,c;
     input(&a,&b,&c);
     int largest;
-    compare(&a, &b, &c, &largest);
+    compare(a, b, c, &largest);
     output(largest);
     return 0;
 }
