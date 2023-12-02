@@ -1,0 +1,10 @@
+Compilation started at 12/2/2023, 8:59:16 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/2/2023, 8:59:16 PM
+Compilation started at 12/2/2023, 8:59:39 PM
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/2/2023, 8:59:39 PM
