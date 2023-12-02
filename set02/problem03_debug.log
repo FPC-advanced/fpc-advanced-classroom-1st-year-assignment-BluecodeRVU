@@ -21,3 +21,79 @@ Undefined command: "gcd".  Try "help".
 Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
 [New Thread 32820.0xffc]
 warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 32820.0x5568 exited with code 0]
+[Inferior 1 (process 32820) exited normally]
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
+[New Thread 20016.0x8040]
+[Thread 20016.0x8040 exited with code 0]
+[Inferior 1 (process 20016) exited normally]
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
+[New Thread 24688.0x3608]
+[Thread 24688.0x3608 exited with code 0]
+[Inferior 1 (process 24688) exited normally]
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
+[New Thread 28408.0x4c6c]
+[Thread 28408.0x1c68 exited with code 0]
+[Inferior 1 (process 28408) exited normally]
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++rset logging file problem03_debug.log
+Undefined command: "rset".  Try "help".
++rset logging file problem03_debug.log
+Undefined command: "rset".  Try "help".
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
+[New Thread 33316.0x2490]
+[Thread 33316.0x2490 exited with code 0]
+[Inferior 1 (process 33316) exited normally]
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem03_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem03_debug.log.
++set trace-commands on
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe 
+[New Thread 23868.0x71bc]
+[Thread 23868.0x71bc exited with code 0]
+[Inferior 1 (process 23868) exited normally]
