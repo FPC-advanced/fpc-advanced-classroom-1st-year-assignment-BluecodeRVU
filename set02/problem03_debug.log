@@ -1,0 +1,16 @@
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gcc -g "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.c" -o "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe"
+Undefined command: "".  Try "help".
++"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02": Invalid argument.
++gcc -g "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.c" -o "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set02\problem03.exe"
+Undefined command: "".  Try "help".
++problem03.c
+Undefined command: "problem03.c".  Try "help".
