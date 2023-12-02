@@ -1,0 +1,31 @@
++r
+Starting program:  
+No executable specified, use `target exec'.
++r
+Starting program:  
+No executable specified, use `target exec'.
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gcc -g "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\practice.c" -o "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\practice.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++r
+Starting program:  
+No executable specified, use `target exec'.
++r
+Starting program:  
+No executable specified, use `target exec'.
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./practice
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file practice_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to gdb.txt.
++set trace-commands on
++r
+Starting program:  
+No executable specified, use `target exec'.
