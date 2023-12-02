@@ -40,8 +40,7 @@ void output(int result){
 
   int main() {
       int n = input_number();
-      int x=sqrrt(n);
-      int result=is_composite(x);
+      int result=is_composite(n);
     output(result);
   }
   
