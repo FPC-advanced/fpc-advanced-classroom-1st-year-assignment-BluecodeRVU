@@ -7,6 +7,13 @@ int input_number(){
   scanf("%d", &n);
   return n;
 }
+int sqrrt(int s){
+  int x;
+  while(x*x - s>0.0000001){
+    x= 0.5*(x+(s/x));
+  }
+  return x;
+}
 
 int is_composite(int n){
   if(n!=0 && n!=1){
@@ -32,8 +39,9 @@ void output(int result){
 
 
   int main() {
-      int n = input_number(); 
-      int result=is_composite(n);
+      int n = input_number();
+      int x=sqrrt(n);
+      int result=is_composite(x);
     output(result);
   }
   
