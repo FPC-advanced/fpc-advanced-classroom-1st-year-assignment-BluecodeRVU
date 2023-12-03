@@ -67,3 +67,63 @@ Already logging to gdb.txt.
 +r
 Starting program:  
 No executable specified, use `target exec'.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/2/2023, 9:29:12 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to gdb.txt.
++set trace-commands on
++r
+Starting program:  
+No executable specified, use `target exec'.
++l
+No symbol table is loaded.  Use the "file" command.
++file
+No executable file now.
+No symbol file now.
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to gdb.txt.
++set trace-commands on
++r
+Starting program:  
+No executable specified, use `target exec'.
++problem02.c
+Undefined command: "problem02.c".  Try "help".
++gcc problem02.c
+Undefined command: "gcc".  Try "help".
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to gdb.txt.
++set trace-commands on
++cd set01
+set01: No such file or directory.
++q

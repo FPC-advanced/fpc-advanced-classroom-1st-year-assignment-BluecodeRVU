@@ -8,3 +8,192 @@
 +l
 Line number 7 out of range; c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c has 6 lines.
 +q
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 34532.0x93fc]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 34532.0x93fc exited with code 0]
+[Inferior 1 (process 34532) exited normally]
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gcc -g "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c" -o "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem02_debug.log.
++set trace-commands on
++cd set01
+set01: No such file or directory.
++q
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 35112.0x8484]
+warning: Can not parse XML library list; XML support was disabled at compile time
+[Thread 35112.0x8484 exited with code 0]
+[Inferior 1 (process 35112) exited normally]
++b main
+Breakpoint 1 at 0x7ff72e111752: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 29.
++b med
+Breakpoint 2 at 0x7ff72e11169d: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 17.
++b inp
+Breakpoint 3 at 0x7ff72e1115ea: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 3.
++b ainp
+Breakpoint 4 at 0x7ff72e11162e: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 10.
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 40424.0x89a8]
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:29
+29	  int n=inp();
++4
+Undefined command: "4".  Try "help".
++n
+
+Thread 1 hit Breakpoint 3, inp () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:3
+3	  printf("pls enter n: ");
++n
+5	  scanf("%d",&n);
++4
+Undefined command: "4".  Try "help".
++n
+6	  return n;
++print n
+$1 = 312
++n
+7	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:31
+31	  ainp(n);
++step
+
+Thread 1 hit Breakpoint 4, ainp (n=312) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:10
+10	  for(int i=0;i<n;i++){
++q
++br inp
+Breakpoint 1 at 0x1400015ea: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 3.
++br ainp
+Breakpoint 2 at 0x14000162e: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 10.
++br main
+Breakpoint 3 at 0x140001752: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 29.
++br med
+Breakpoint 4 at 0x14000169d: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 17.
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 30372.0x7684]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 3, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:29
+29	  int n=inp();
++r
+Program not restarted.
++n
+
+Thread 1 hit Breakpoint 1, inp () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:3
+3	  printf("pls enter n: ");
++n
+5	  scanf("%d",&n);
++4
+Undefined command: "4".  Try "help".
++n=4
+A syntax error in expression, near `=4'.
++print n
+$1 = 589
++n
+6	  return n;
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 36340.0x7988]
+
+Thread 1 hit Breakpoint 3, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:29
+29	  int n=inp();
++n
+
+Thread 1 hit Breakpoint 1, inp () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:3
+3	  printf("pls enter n: ");
++n
+5	  scanf("%d",&n);
++n
+6	  return n;
++print n
+$2 = 4
++n
+7	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:31
+31	  ainp(n);
++n
+
+Thread 1 hit Breakpoint 2, ainp (n=4) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:10
+10	  for(int i=0;i<n;i++){
++n
+11	    printf("pls enter elements: ");
++n
+12	    scanf("%f",&a[i]);
++n
+10	  for(int i=0;i<n;i++){
++n
+11	    printf("pls enter elements: ");
++n
+12	    scanf("%f",&a[i]);
++2
+Undefined command: "2".  Try "help".
++2
+Undefined command: "2".  Try "help".
++n
+10	  for(int i=0;i<n;i++){
++n
+11	    printf("pls enter elements: ");
++n
+12	    scanf("%f",&a[i]);
++n
+10	  for(int i=0;i<n;i++){
++n
+11	    printf("pls enter elements: ");
++n
+12	    scanf("%f",&a[i]);
++n
+10	  for(int i=0;i<n;i++){
++n
+14	}
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:32
+32	  float m=med(n,a);
++n
+
+Thread 1 hit Breakpoint 4, med (n=4, a=0xeada7ff620) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:17
+17	    if(n%2==0)
++n
+19	      float x=((a[n/2]+a[(n/2)+1])/2.0);
++n
+20	      return x;
++print x
+$3 = 3.40788643e-27
++n
+26	}
++print x
+No symbol "x" in current context.
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:33
+33	  printf("%f",m);
++n
+34	}
++print m
+$4 = 3.40788643e-27
++n
+0x00007ff72e1113c1 in __tmainCRTStartup ()
++n
+Single stepping until exit from function __tmainCRTStartup,
+which has no line number information.
+[Thread 36340.0x7988 exited with code 0]
+[Inferior 1 (process 36340) exited normally]
++q
