@@ -197,3 +197,94 @@ which has no line number information.
 [Thread 36340.0x7988 exited with code 0]
 [Inferior 1 (process 36340) exited normally]
 +q
++br main
+Breakpoint 1 at 0x140001752: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 29.
++br med
+Breakpoint 2 at 0x14000169d: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 17.
++br 19
+Breakpoint 3 at 0x1400016a7: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 19.
++br 20
+Breakpoint 4 at 0x140001702: file c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c, line 20.
++r
+Starting program: c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.exe 
+[New Thread 37208.0x7fa4]
+warning: Can not parse XML library list; XML support was disabled at compile time
+
+Thread 1 hit Breakpoint 1, main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:29
+warning: Source file is more recent than executable.
+29	int main(){
++n
+31	  float a[100];
++n
+32	  ainp(n);
++n
+
+Thread 1 hit Breakpoint 2, med (n=4, a=0x3dda5ff5d0) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:17
+17	    if(n%2==0)
++n
+
+Thread 1 hit Breakpoint 3, med (n=4, a=0x3dda5ff5d0) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:19
+19	    float x2=a[(n/2)+1];
++printf x2
+Bad format string, missing '"'.
++print x2
+No symbol "x2" in current context.
++n
+
+Thread 1 hit Breakpoint 4, med (n=4, a=0x3dda5ff5d0) at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:20
+20	      float x=((x1+x2)/2.0);
++print x1
+No symbol "x1" in current context.
++n
+26	    }
++print x
+No symbol "x" in current context.
++n
+main () at c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01\problem02.c:33
+33	  float m=med(n,a);
++print m
+$1 = 3.40788643e-27
++n
+34	  printf("%f",m);
++n
+0x00007ff72e1113c1 in __tmainCRTStartup ()
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/3/2023, 4:09:01 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/3/2023, 4:09:11 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/3/2023, 4:09:25 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01"
+"c:\Users\rames\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-BluecodeRVU\set01": Invalid argument.
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[New Thread 37208.0x9b90]
+[Thread 37208.0x9b90 exited with code 0]
+[Thread 37208.0x7fa4 exited with code 0]
+[Inferior 1 (process 37208) exited normally]
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem02_debug.log.
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/3/2023, 4:09:38 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++set trace-commands on
