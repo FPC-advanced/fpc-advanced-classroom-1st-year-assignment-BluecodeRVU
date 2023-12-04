@@ -17,7 +17,7 @@ void init_array(int n, int a[n]){
 void erotosthenes_sieve(int n, int a[n]){
   for(int i=2;i<n;i++){
     for(int j=2;j<=sqrt(a[i])+1;j++){
-      if(a[i]%j==0){
+      if(a[i]%j==0){//a[j](j=0), a[i]%j
         a[i]=0;
       }
     }

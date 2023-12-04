@@ -288,3 +288,9 @@ Undefined command: "git".  Try "help".
 +git push
 Undefined command: "git".  Try "help".
 +set trace-commands on
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 12/3/2023, 5:09:25 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
