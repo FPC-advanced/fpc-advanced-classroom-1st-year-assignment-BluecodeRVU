@@ -8,7 +8,7 @@ int input_number(){
   return n;
 }
 int sqrrt(int s){
-  int x;
+  int x=1000;
   while(x*x - s>0.0000001){
     x= 0.5*(x+(s/x));
   }
@@ -16,7 +16,7 @@ int sqrrt(int s){
 }
 
 int is_composite(int n){
-  if(n!=0 && n!=1){
+  if(n!=0 && n!=1 && n!=2){
     for(int i=2; i<=sqrrt(n)+1; i++){
       if(n%i==0){
         return 1;        
@@ -27,7 +27,7 @@ int is_composite(int n){
   return 0;
 }
 
-  
+
 void output(int result){
   if(result==1){
     printf("Num is composite: ");
@@ -43,4 +43,4 @@ void output(int result){
       int result=is_composite(n);
     output(result);
   }
-  
+
