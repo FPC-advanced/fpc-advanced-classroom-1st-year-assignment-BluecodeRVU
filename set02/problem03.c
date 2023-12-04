@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int input_number(){
   printf("pls enter a num: ");
@@ -8,7 +7,7 @@ int input_number(){
   return n;
 }
 int sqrrt(int s){
-  int x=1000;
+  int x=s;
   while(x*x - s>0.0000001){
     x= 0.5*(x+(s/x));
   }
