@@ -1,7 +1,8 @@
 #include <stdio.h>
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3)
 
-{printf("pls enter values for triangle: ");
+{
+  printf("pls enter values for triangle: ");
  scanf("%f %f",x1,y1);
  printf("pls enter values for triangle: ");
   scanf("%f %f",x2,y2);
@@ -16,10 +17,12 @@ int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3){
   {return 0;}
   else
   {return 1;}
-
 }
-void output(int result){
-  if(result==0){
+
+void output(int result)
+{
+  if(result==0)
+  {
     printf("the points lie on a tri");}
   else{printf("the points do not lie on a tri");}
 }

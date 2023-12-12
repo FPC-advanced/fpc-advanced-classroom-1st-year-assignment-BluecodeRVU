@@ -9,7 +9,8 @@ void inp(char str[100]) {
 int rev(char str[100]) {
     int i, j;
     int lenstr = strlen(str);
-    for (j = lenstr, i = lenstr - 1; i >= 0; j++, i--) {
+    for (j = lenstr, i = lenstr - 1; i >= 0; j++, i--) 
+    {
         str[j] = str[i];  
     }
     return lenstr;

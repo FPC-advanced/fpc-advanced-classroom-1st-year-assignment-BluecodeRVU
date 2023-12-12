@@ -61,5 +61,4 @@ int n;
   find_n_areas(n,t);
   smallest=find_smallest_triangle(n,t);
   output(smallest);
-  
 }
