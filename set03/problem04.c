@@ -1,31 +1,25 @@
 #include <stdio.h>
 int input(){
+  printf("pls enter a number: ");
   int x;
-  printf("pls enter a num;");
-  scanf("%i",&x);
+  scanf("%d",&x);
   return x;
-  
 }
-int find_fibo(int n)
-{ int a = 0, b = 1, fibo;
-
- for (int i = 3; i <= n; i++) {
-     fibo = a + b; 
-     a = b;
-     b = fibo;
- }
-
- return fibo;
+void find_fibo(int n,int fibo[n]){
+  fibo[0]=0;
+  fibo[1]=1;
+  for(int i=2;i!=n;i++){
+    fibo[i]=fibo[i-1]+fibo[i-2];
+  }
 }
-
-void output(int fibo){
-  printf("%i",fibo);
+void output(int n, int fibo[n]){
+  for(int i=0;i<n;i++){
+    printf("%d\t",fibo[i]);
+  }
 }
 int main(){
-  int x,fibo;
-  x=input();
-  fibo=find_fibo(x);
-  output(fibo);
-  return 0;
-
+  int n=input();
+  int fibo[n];
+  find_fibo(n, fibo);
+  output(n,fibo);
 }
