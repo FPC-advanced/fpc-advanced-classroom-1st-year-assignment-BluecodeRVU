@@ -1,45 +1,23 @@
 #include <stdio.h>
 void input(char *name){
-    printf("Enter your name: ");
-    scanf("%s",name);
+  printf("pls enter a name: ");
+  scanf("%s",name);
 }
-
 int has_nice_name(char *c){
-    int i;
-    int countvov=0;
-    int countcon=0;
-    
-    for(i=0;c[i]!='\0';i++){
-        if (c[i]=='a'|| c[i] == 'e' || c[i] == 'i' || c[i]=='o' || c[i]=='u'){
-            
-            countvov++;
-        }
-        else{
-            
-            countcon++;
-
-        }
-    
-    }
-    if(countvov>=2 && countcon>=2){
-        return 0;
-    }
-    else{
-        return 1;
-    }
+  int con=0,vow=0;
+  for(int i=0;c[i]!='\0';i++){
+  (c[i]=='a'||c[i]=='e'||c[i]=='i'||c[i]=='o'||c[i]=='u')?vow++:con++;
+  }
+  int res=(vow>=2 && con>=2)?0:1;
+  return res;
 }
 void output(int res){
-    if(res==0){
-        printf("its a good name");
-    }
-    else{
-        printf("it is a bad name");
-    }
+  char *str=(res==0)?"has a nice name": "not a good name";
+  printf("%s",str);
 }
-
 int main(){
-    char c[50];
-    input(c);
-    int result = has_nice_name(c);
-    output(result);
+  char name[100];
+  input(name);
+  int res=has_nice_name(name);
+  output(res);
 }
