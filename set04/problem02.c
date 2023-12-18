@@ -27,7 +27,9 @@ fr calc(){
   }
   else{
   return f3;
-}}
+  }
+}
+
 void output(fr ft){
  printf("%d/%d",ft.num,ft.den);
 }
