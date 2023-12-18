@@ -11,15 +11,15 @@ void input_array(int n, int a[n]){
     scanf("%d",&a[i]);
   }
 }
-  
+
 int find_largest_index(int n, int a[n]) {
   int largest = a[0], index = 0;
   for (int i = 1; i < n; i++) {
-    if (a[i] > largest) {
+    (a[i]>largest)?(largest=a[i],index=i):0;
+    /*if (a[i] > largest) {
       largest = a[i];
-      index = i;
+      index = i;*/
     }
-  }
   return index;
 }
 
