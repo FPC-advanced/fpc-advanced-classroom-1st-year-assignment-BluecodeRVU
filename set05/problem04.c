@@ -8,7 +8,7 @@ void input_camel_details(float *radius, float *height, float *length){
     scanf("%f",length);
 }
 int find_mood(float radius, float height, float length){
-    return mood=()
+    return mood=(radius<height && radius<length)
     /*if(radius<height && radius<length){
         return 1;
     }
