@@ -33,6 +33,7 @@ fr calc(){
 void output(fr ft){
  printf("%d/%d",ft.num,ft.den);
 }
+
 int main(){
 fr ft;
   ft=calc();
